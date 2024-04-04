@@ -92,8 +92,8 @@ func main() {
 		}
 	})
 
-	fmt.Println("Server is running on http://localhost:8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	fmt.Println("Server is running on http://localhost:8082")
+	log.Fatal(http.ListenAndServe(":8082", nil))
 }
 
 func GenerateJWT() (string, error) {
